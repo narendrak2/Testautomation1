@@ -30,7 +30,7 @@ public class Vehiclelistpageforbike extends Libraryfilesbaseclass{
     Assert.assertEquals(findelementreturn(Nofueltext), "No-fuel");
     Thread.sleep(3000);
     //car.selectcalender();
-    driver.manage().timeouts().implicitlyWait(11, TimeUnit.SECONDS);
+    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	// Thread.sleep(2000);
 	findelementandclick(startdateclick);
 	//Thread.sleep(3000);
