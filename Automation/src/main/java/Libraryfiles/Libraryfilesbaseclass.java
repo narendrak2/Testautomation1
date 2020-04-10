@@ -23,8 +23,11 @@ import org.testng.Assert;
 		public Libraryfilesbaseclass() {	
 			try {
 				pop=new Properties();
-				FileInputStream fi=new FileInputStream("/Users/narendra/eclipse-workspace/Automation/src/main/java/Config/config.properties");
+				FileInputStream fi=new FileInputStream("/Users/narendra/git/repository7/Automation/src/main/java/Config/config.properties");
 				try {
+					
+					//Users/narendra/git/repository7/Automation			
+					
 					pop.load(fi);
 				} catch (IOException e) {
 					// TODO Auto-generated catch block
