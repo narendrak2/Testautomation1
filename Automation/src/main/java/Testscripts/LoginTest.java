@@ -68,7 +68,7 @@ public class LoginTest extends Libraryfilesbaseclass{
 		findelementAndsendkeysforusername(usernamefb);
 		findelementAndsendkeysforpassword(passwordfb);
 		findelementandclick(loginbtnfbonpop);
-		Thread.sleep(6000);
+		Thread.sleep(5000);
 	}
 	@AfterMethod
 	public void teardown() {
