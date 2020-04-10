@@ -81,7 +81,7 @@ public class Vehiclelistpageforbike extends Libraryfilesbaseclass{
 		Thread.sleep(2000);
 		Assert.assertEquals(findelementandreturntext(pop.getProperty("getdays3")), "Duration\n" + 
 					 		"30d");
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 			
 	}
